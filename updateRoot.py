@@ -350,19 +350,6 @@ for server_name in server_names:
 			fail_count+=1
 	else:
 		fail_count+=1
-	#if changeServerPassword(server_name, password) == "Success":
-		#servers_updated+=1
-		#status=changePassword(server_name, password)
-		#if status == "update":
-			#update_count+=1
-			#items_assigned+=1
-		#elif status == "create":
-			#create_count+=1
-			#items_assigned+=1
-		#else:
-			#fail_count+=1
-	#else:
-		#fail_count+=1
 print("\n",items_assigned, "Bitwarden Items Assigned: ")
 print("---", update_count, "Items Updated")
 print("---", create_count, "Items Created")
